@@ -1,0 +1,40 @@
+.ChatLog {
+  display: flex;
+  flex-direction: column;
+  height: 60%;
+  background-color: #61dafb;
+  border-radius: 20px;
+  overflow-y: scroll;
+  -ms-overflow-style: none;
+}
+
+.ChatLog::-webkit-scrollbar {
+  width: 0px;
+  background: transparent; /* make scrollbar transparent */
+}
+
+.ChatLog .MessageBox {
+  margin-top: 10px;
+  margin-left: 10px;
+}
+
+.ChatLog .MessageBox + .MessageBox {
+  margin-top: 5px;
+}
+
+.ChatLog .MyMessageBox {
+  margin-top: 10px;
+  margin-right: 10px;
+}
+
+.ChatLog .MyMessageBox + .MyMessageBox {
+  margin-top: 5px;
+}
+
+.ChatLog .Message {
+  word-break: break-all;
+}
+
+.ChatLog .FocusDiv {
+  margin-top: 10px;
+}

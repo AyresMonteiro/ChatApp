@@ -1,0 +1,12 @@
+.MyMessageBox {
+  max-width: 80%;
+  align-self: flex-end;
+  background-color: #282c34;
+  color: white;
+  padding: 15px;
+  border-radius: 20px;
+}
+
+.MyMessageBox .Time {
+  font-size: 10pt;
+}

@@ -1,0 +1,9 @@
+{
+  "name": "chat-app",
+  "version": "1.0.0",
+  "description": "A simple reactjs and nodejs chat app.",
+  "main": "null",
+  "author": "Ayres William R. Monteiro",
+  "license": "MIT",
+  "private": false
+}

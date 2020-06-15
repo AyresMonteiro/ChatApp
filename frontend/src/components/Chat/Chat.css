@@ -1,0 +1,31 @@
+.Chat {
+  width: 60%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  color: #282c34;
+  background-color: white;
+  margin-left: 5vw;
+}
+
+.Chat .Titulo {
+  align-self: center;
+  font-size: 18pt;
+  font-weight: bold;
+  margin-top: 10px;
+}
+
+.Chat .Descricao {
+  margin-bottom: 5px;
+}
+
+.Chat .NameInput {
+  height: 20px;
+  font-size: 12pt;
+  font-weight: bold;
+}
+
+.Chat .NameInput:focus {
+  outline: none;
+}
+
