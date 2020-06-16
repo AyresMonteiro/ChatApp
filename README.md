@@ -1,4 +1,4 @@
-This a simple React Chat App that uses socket.io at the backend.
+This a simple React Chat App that uses socket.io to send messages.
 
 ## How to run
 
