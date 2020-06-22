@@ -14,7 +14,7 @@ function MessageSender({ owner, socket }) {
     }
     else if (owner.length === 0)
       // alert.show('Insira um nome!');
-      alert.show('Insira um nome de usuário!');
+      alert.show('Type a username!');
   };
 
   return (
