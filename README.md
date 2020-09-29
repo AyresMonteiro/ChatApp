@@ -6,6 +6,6 @@ Download MongoDB Server Community at https://www.mongodb.com/try/download/commun
 and run.
 
 Next, open a cmd at backend and execute the commands `yarn` to install node modules
-and `yarn dev`.
+and `node index.js`.
 
 Finally, open a cmd at frontend and execute the commands `yarn` and `yarn start`.
