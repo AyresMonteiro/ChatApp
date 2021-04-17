@@ -6,7 +6,7 @@ import { createStore } from 'redux';
 const initialState = {
   messages: [{
     _id: '0',
-    owner: "Ayres, ChatNotficator's Creator",
+    owner: "Ayres, ChatApp's Creator",
     ownerId: 'Nothing',
     text: "Hello! Send a message!",
     time: new Date('2020-06-01T16:20')
