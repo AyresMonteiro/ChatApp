@@ -1,27 +1,20 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import { Provider as ReduxProvider } from 'react-redux';
-import { Provider as AlertProvider } from 'react-alert';
-import AlertTemplate from 'react-alert-template-basic';
+import reportWebVitals from './reportWebVitals';
 
 import App from './App';
 import store from './store';
 
 import './index.css';
-// import * as serviceWorker from './serviceWorker';
 
 ReactDOM.render(
   <ReduxProvider store={store}>
-    <AlertProvider template={AlertTemplate}>
-      <React.StrictMode>
-        <App />
-      </React.StrictMode>
-    </AlertProvider>
+    <React.StrictMode>
+      <App />
+    </React.StrictMode>
   </ReduxProvider>,
   document.getElementById('root')
 );
 
-// If you want your app to work offline and load faster, you can change
-// unregister() to register() below. Note this comes with some pitfalls.
-// Learn more about service workers: https://bit.ly/CRA-PWA
-// serviceWorker.unregister();
+reportWebVitals();
